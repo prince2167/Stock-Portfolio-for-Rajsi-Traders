@@ -1,0 +1,6 @@
+node_modules
+{
+  "version": 2,
+  "builds": [{ "src": "index.js", "use": "@vercel/node" }],
+  "rewrites": [{ "source": "/(.*)", "destination": "index.js" }]
+}
